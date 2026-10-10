@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tacoma Heating and Air provides residential and light commercial heating and air conditioning repair, installation, maintenance, and troubleshooting.">
+<title>Tacoma Heating and Air | Heating & Cooling</title>
+<style>
+:root{--navy:#102b5c;--blue:#2865b3;--red:#d9362b;--pale:#f3f7fc;--ink:#24324a;--white:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:var(--white)}
+a{color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:var(--navy);color:white;box-shadow:0 2px 12px #0002}
+nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{font-size:clamp(1.05rem,2.5vw,1.55rem);font-weight:900;letter-spacing:.3px;text-decoration:none}
+.logo span{color:#ff6b61}
+nav ul{display:flex;gap:28px;list-style:none}
+nav a:not(.logo){text-decoration:none;font-weight:700}
+nav a:hover{color:#ffb0aa}
+.hero{background:linear-gradient(120deg,#0b214bfa,#174a83e8),url("https://images.unsplash.com/photo-1581092919535-7146ff1a590d?auto=format&fit=crop&w=1800&q=85") center/cover;color:white;text-align:center;padding:105px 20px 100px}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;font-weight:800;color:#ff7970}
+.hero h1{font-size:clamp(2.35rem,6vw,4.6rem);line-height:1.08;max-width:950px;margin:12px auto 20px}
+.hero p{font-size:clamp(1.05rem,2.5vw,1.35rem);max-width:780px;margin:0 auto 30px}
+.btn{display:inline-block;background:var(--red);color:white;text-decoration:none;padding:14px 24px;border-radius:5px;font-weight:800;transition:background .2s,transform .2s}
+.btn:hover{background:#b92620;transform:translateY(-1px)}
+.btn.secondary{background:var(--white);color:var(--navy);margin-left:10px}
+section{padding:76px 0}
+.section-title{text-align:center;color:var(--navy);font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.2;margin-bottom:14px}
+.section-intro{text-align:center;max-width:760px;margin:0 auto 38px}
+.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:white;padding:28px;border-radius:10px;box-shadow:0 8px 28px #102b5c12;border:1px solid #e7edf5}
+.card .symbol{font-size:2rem}
+.card h3{color:var(--navy);margin:12px 0 8px;font-size:1.25rem}
+.why{background:var(--navy);color:white}
+.why .section-title{color:white}
+.why-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:36px}
+.why-card{padding:18px;text-align:center}
+.check{display:inline-grid;place-items:center;background:var(--blue);border-radius:50%;width:42px;height:42px;font-size:1.35rem;font-weight:bold;margin-bottom:12px}
+.why-card h3{margin-bottom:8px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.about-image{width:100%;height:370px;object-fit:cover;border-radius:12px}
+.about-copy .section-title{text-align:left}
+.about-copy p{margin:16px 0}
+.callout{background:var(--pale);text-align:center}
+.callout .section-title{margin-bottom:18px}
+.phone{display:inline-block;font-size:clamp(1.7rem,4vw,2.5rem);font-weight:900;color:var(--navy);text-decoration:none;margin:8px 0}
+.website{font-weight:700;color:var(--blue);overflow-wrap:anywhere}
+.contact-details{margin:15px 0 25px}
+footer{background:#081b3a;color:#e9eff8;text-align:center;padding:28px 15px}
+footer p+p{margin-top:6px;color:#c5d1e2;font-size:.92rem}
+@media(max-width:800px){.services,.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{grid-template-columns:1fr;gap:28px}.about-image{height:280px}}
+@media(max-width:560px){nav{padding:14px 0;flex-direction:column;gap:8px}nav ul{gap:18px;flex-wrap:wrap;justify-content:center}.hero{padding:78px 16px}.services,.why-grid{grid-template-columns:1fr}section{padding:58px 0}.btn.secondary{margin:12px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav aria-label="Main navigation">
+      <a class="logo" href="#home">❄ TACOMA <span>HEATING AND AIR</span></a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container">
+    <div class="eyebrow">Quality Workmanship. Honest Service.</div>
+    <h1>Comfort You Can Count On, All Year Long</h1>
+    <p>Residential and light commercial heating and air conditioning repair, installation, maintenance, and expert troubleshooting.</p>
+    <a class="btn" href="tel:9092777322">Call 909-277-7322</a>
+    <a class="btn secondary" href="#services">Explore Our Services</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-intro">From diagnosing a problem to installing or maintaining your system, Tacoma Heating and Air is here to help keep your space comfortable.</p>
+    <div class="services">
+      <article class="card"><div class="symbol">❄️</div><h3>Heating & Air Conditioning Repair</h3><p>Practical troubleshooting and dependable repair for heating and cooling issues.</p></article>
+      <article class="card"><div class="symbol">🏠</div><h3>Installation</h3><p>Heating and air conditioning installation for residential and light commercial spaces.</p></article>
+      <article class="card"><div class="symbol">🛠️</div><h3>Maintenance</h3><p>Maintenance services to help your heating and cooling equipment run reliably.</p></article>
+      <article class="card"><div class="symbol">🔎</div><h3>Troubleshooting & Diagnostics</h3><p>Expert diagnostics to help identify system problems and determine next steps.</p></article>
+      <article class="card"><div class="symbol">🏡</div><h3>Residential HVAC</h3><p>Heating and cooling support for homes and everyday comfort needs.</p></article>
+      <article class="card"><div class="symbol">🏢</div><h3>Light Commercial HVAC</h3><p>Heating and air conditioning services for light commercial properties.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="container">
+    <h2 class="section-title">Why Choose Tacoma Heating and Air?</h2>
+    <p class="section-intro">Experience, clear service, and a focus on doing the job right.</p>
+    <div class="why-grid">
+      <div class="why-card"><div class="check">✓</div><h3>25+ Years of HVAC Experience</h3><p>Experience you can rely on for heating and cooling service.</p></div>
+      <div class="why-card"><div class="check">✓</div><h3>Residential & Light Commercial</h3><p>Service for homes and light commercial settings.</p></div>
+      <div class="why-card"><div class="check">✓</div><h3>Quality Workmanship</h3><p>Our work is always on point, with honest service as a priority.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <img class="about-image" src="https://images.unsplash.com/photo-1581092919535-7146ff1a590d?auto=format&fit=crop&w=1000&q=85" alt="Technician working with equipment">
+    <div class="about-copy">
+      <h2 class="section-title">About Us</h2>
+      <p>Tacoma Heating and Air brings more than 25 years of HVAC experience to residential and light commercial heating and cooling needs.</p>
+      <p>We provide heating and air conditioning repair, installation, maintenance, troubleshooting, and diagnostics, with a focus on quality workmanship and honest service.</p>
+      <a class="btn" href="#contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section class="callout" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Tacoma Heating and Air</h2>
+    <p>Ready to discuss your heating or air conditioning needs? Give us a call.</p>
+    <div class="contact-details">
+      <a class="phone" href="tel:9092777322">909-277-7322</a>
+      <p><a class="website" href="https://tacomaheatingandair.com">tacomaheatingandair.com</a></p>
+    </div>
+    <a class="btn" href="tel:9092777322">Call Us Today</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><strong>Tacoma Heating and Air</strong> · Our work is always on point.</p>
+  <p>Heating & Air Conditioning Repair · Installation · Maintenance</p>
+</footer>
+</body>
+</html>
